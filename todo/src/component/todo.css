@@ -24,17 +24,6 @@ html {
   margin-top: 12rem;
 }
 
-.child-div figure img {
-  width: 10rem;
-  height: 8rem;
-}
-
-.child-div figure figcaption {
-  color: #fff;
-  font-size: 2.2rem;
-  padding-top: 2rem;
-  text-transform: capitalize;
-}
 
 input {
   
@@ -77,24 +66,7 @@ input:focus {
   justify-content: space-around;
 }
 
-.fa {
-  margin-left: -2.5rem;
-  cursor: pointer;
-  pointer-events: auto;
-  z-index: 10;
-  background-color: #fff;
-  background-image: none;
-  color: #666;
-  font-size: 2rem;
-}
-.fa:hover {
-  color: rgb(47, 214, 122);
-}
 
-.fa-plus:before {
-  content: "\f067";
-  font-size: 1.5rem;
-}
 
 .showItems {
   margin-top: 3rem;
@@ -115,44 +87,14 @@ input:focus {
   align-items: center;
 }
 
-.eachItem:hover {
-  background: rgb(249, 249, 252);
-  color: rgb(169, 224, 15);
-}
-
 .showItems .eachItem h3 {
   padding-left: 1rem;
   font-size: 1.6rem;
   color: rgb(214, 5, 5);
 }
-
-.fa-trash-alt,
-.fa-edit {
-  cursor: pointer;
-  pointer-events: auto;
-  z-index: 10;
-  color: rgb(251, 251, 251);
-
-  transition: color 0.15s linear;
-  font-size: 2rem;
+: 2rem;
 }
 
-.addItems .fa-edit {
-  color: rgb(47, 214, 122);
-}
-
-.fa-edit {
-  margin-left: -3.5rem;
-}
-
-
-.eachItem:hover .fa-trash-alt {
-  color: rgba(161, 6, 115, 0.856);
-}
-
-.eachItem:hover .fa-edit {
-  color: rgb(100, 214, 47);
-}
 
 .eachItem:hover h3 {
   color: rgb(85, 41, 220);
